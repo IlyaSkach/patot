@@ -2,9 +2,9 @@
 const houses = [
   {
     id: 1,
-    title: "Современный дом с панорамными окнами",
+    title: "Современный дом с одним этажом",
     description: "Просторный дом с открытой планировкой и большими окнами",
-    area: 180,
+    area: 166,
     mainImage: "images/houses/house1/home1_1.jpg",
     gallery: [
       "images/houses/house1/home1_1.jpg",
@@ -14,15 +14,15 @@ const houses = [
     ],
     specifications: [
       {
-        title: "Документация 1",
+        title: "План помещений с покрытиями",
         file: "specifications/houses/house1/1.pdf",
       },
       {
-        title: "Документация 2",
+        title: "План с росстановкой мебели",
         file: "specifications/houses/house1/2.pdf",
       },
       {
-        title: "Документация 3",
+        title: "Технико экономические показатели",
         file: "specifications/houses/house1/3.pdf",
       },
     ],
@@ -32,7 +32,7 @@ const houses = [
     id: 2,
     title: "Классический двухэтажный дом",
     description: "Традиционный дом с мансардой и элегантным фасадом",
-    area: 220,
+    area: 375,
     mainImage: "images/houses/house2/home2_1.jpg",
     gallery: [
       "images/houses/house2/home2_1.jpg",
@@ -42,15 +42,178 @@ const houses = [
     ],
     specifications: [
       {
-        title: "Основная спецификация",
+        title: "План первого этажа",
         file: "specifications/houses/house2/1.pdf",
       },
       {
-        title: "Электрика",
+        title: "План второго этажа ",
         file: "specifications/houses/house2/2.pdf",
       },
       {
-        title: "Вентиляция",
+        title: "Технико-экономические показатели",
+        file: "specifications/houses/house2/3.pdf",
+      },
+    ],
+    archive: "specifications/houses/house2/specifications.zip",
+  },
+  {
+    id: 3,
+    title: "Классический двухэтажный дом",
+    description: "Традиционный дом с мансардой и элегантным фасадом",
+    area: 227,
+    mainImage: "images/houses/house3/home3_1.jpg",
+    gallery: [
+      "images/houses/house3/home3_1.jpg",
+      "images/houses/house3/gallery/home3_2.jpg",
+      "images/houses/house3/gallery/home3_3.jpg",
+      "images/houses/house3/gallery/home3_4.jpg",
+    ],
+    specifications: [
+      {
+        title: "План первого этажа",
+        file: "specifications/houses/house2/1.pdf",
+      },
+      {
+        title: "План второго этажа ",
+        file: "specifications/houses/house2/2.pdf",
+      },
+      {
+        title: "Экспликация",
+        file: "specifications/houses/house2/3.pdf",
+      },
+    ],
+    archive: "specifications/houses/house2/specifications.zip",
+  },
+  {
+    id: 4,
+    title: "Классический двухэтажный дом",
+    description: "Традиционный дом с мансардой и элегантным фасадом",
+    area: 227,
+    mainImage: "images/houses/house4/home4_1.jpg",
+    gallery: [
+      "images/houses/house4/home4_1.jpg",
+      "images/houses/house4/gallery/home4_2.jpg",
+      "images/houses/house4/gallery/home4_3.jpg",
+      "images/houses/house4/gallery/home4_4.jpg",
+    ],
+    specifications: [
+      {
+        title: "План первого этажа",
+        file: "specifications/houses/house2/1.pdf",
+      },
+      {
+        title: "План второго этажа ",
+        file: "specifications/houses/house2/2.pdf",
+      },
+      {
+        title: "Технико-экономические показатели",
+        file: "specifications/houses/house2/3.pdf",
+      },
+    ],
+    archive: "specifications/houses/house2/specifications.zip",
+  },
+  {
+    id: 5,
+    title: "Классический двухэтажный дом",
+    description: "Традиционный дом с мансардой и элегантным фасадом",
+    area: 126,
+    mainImage: "images/houses/house5/home5_1.jpg",
+    gallery: [
+      "images/houses/house5/home5_1.jpg",
+      "images/houses/house5/gallery/home5_2.jpg",
+      "images/houses/house5/gallery/home5_3.jpg",
+    ],
+    specifications: [
+      {
+        title: "План первого этажа",
+        file: "specifications/houses/house2/1.pdf",
+      },
+      {
+        title: "Технико-экономические показатели",
+        file: "specifications/houses/house2/3.pdf",
+      },
+    ],
+    archive: "specifications/houses/house2/specifications.zip",
+  },
+  {
+    id: 6,
+    title: "Классический двухэтажный дом",
+    description: "Традиционный дом с мансардой и элегантным фасадом",
+    area: 192,
+    mainImage: "images/houses/house6/home6_1.jpg",
+    gallery: [
+      "images/houses/house2/home6_1.jpg",
+      "images/houses/house6/gallery/home6_2.jpg",
+      "images/houses/house6/gallery/home6_3.jpg",
+      "images/houses/house6/gallery/home6_4.jpg",
+    ],
+    specifications: [
+      {
+        title: "План первого этажа",
+        file: "specifications/houses/house2/1.pdf",
+      },
+      {
+        title: "План второго этажа ",
+        file: "specifications/houses/house2/2.pdf",
+      },
+      {
+        title: "Технико-экономические показатели",
+        file: "specifications/houses/house2/3.pdf",
+      },
+    ],
+    archive: "specifications/houses/house2/specifications.zip",
+  },
+  {
+    id: 7,
+    title: "Классический двухэтажный дом",
+    description: "Традиционный дом с мансардой и элегантным фасадом",
+    area: 230,
+    mainImage: "images/houses/house7/home7_1.jpg",
+    gallery: [
+      "images/houses/house7/home7_1.jpg",
+      "images/houses/house7/gallery/home7_2.jpg",
+      "images/houses/house7/gallery/home7_3.jpg",
+      "images/houses/house7/gallery/home7_4.jpg",
+    ],
+    specifications: [
+      {
+        title: "План первого этажа",
+        file: "specifications/houses/house2/1.pdf",
+      },
+      {
+        title: "План второго этажа ",
+        file: "specifications/houses/house2/2.pdf",
+      },
+      {
+        title: "Технико-экономические показатели",
+        file: "specifications/houses/house2/3.pdf",
+      },
+    ],
+    archive: "specifications/houses/house2/specifications.zip",
+  },
+  {
+    id: 8,
+    title: "Классический двухэтажный дом",
+    description: "Традиционный дом с мансардой и элегантным фасадом",
+    area: 208,
+    mainImage: "images/houses/house8/home8_1.jpg",
+    gallery: [
+      "images/houses/house2/home8_1.jpg",
+      "images/houses/house8/gallery/home8_2.jpg",
+      "images/houses/house8/gallery/home8_3.jpg",
+      "images/houses/house8/gallery/home8_4.jpg",
+    ],
+    specifications: [
+      {
+        title: "План первого этажа",
+        file: "specifications/houses/house2/1.pdf",
+      },
+      {
+        title: "План второго этажа ",
+        file: "specifications/houses/house2/2.pdf",
+      },
+      {
+        title: "Технико-экономические показатели",
         file: "specifications/houses/house2/3.pdf",
       },
     ],
@@ -165,6 +328,86 @@ function filterHouses() {
   createHouseCards(filteredHouses);
 }
 
+// Функция для загрузки и отображения PDF
+async function loadPDFPresentation() {
+  const canvas = document.getElementById("pdf-canvas");
+  const context = canvas.getContext("2d");
+  const prevButton = document.getElementById("prev-page");
+  const nextButton = document.getElementById("next-page");
+  const pageNumSpan = document.getElementById("page-num");
+
+  let pdf = null;
+  let currentPage = 1;
+  let totalPages = 0;
+
+  try {
+    // Загружаем PDF файл
+    const loadingTask = pdfjsLib.getDocument("presentations/presentation.pdf");
+    pdf = await loadingTask.promise;
+    totalPages = pdf.numPages;
+
+    // Обновляем отображение номера страницы
+    pageNumSpan.textContent = `${currentPage} / ${totalPages}`;
+
+    // Обновляем состояние кнопок
+    updateNavigationButtons();
+
+    // Рендерим первую страницу
+    await renderPage(currentPage);
+  } catch (error) {
+    console.error("Ошибка при загрузке PDF:", error);
+  }
+
+  // Функция для рендеринга страницы
+  async function renderPage(pageNumber) {
+    try {
+      const page = await pdf.getPage(pageNumber);
+      const viewport = page.getViewport({ scale: 1.5 });
+
+      // Устанавливаем размеры canvas
+      canvas.height = viewport.height;
+      canvas.width = viewport.width;
+
+      // Рендерим страницу
+      const renderContext = {
+        canvasContext: context,
+        viewport: viewport,
+      };
+
+      await page.render(renderContext);
+
+      // Обновляем отображение номера страницы
+      pageNumSpan.textContent = `${pageNumber} / ${totalPages}`;
+
+      // Обновляем состояние кнопок
+      updateNavigationButtons();
+    } catch (error) {
+      console.error("Ошибка при рендеринге страницы:", error);
+    }
+  }
+
+  // Функция для обновления состояния кнопок навигации
+  function updateNavigationButtons() {
+    prevButton.disabled = currentPage <= 1;
+    nextButton.disabled = currentPage >= totalPages;
+  }
+
+  // Обработчики событий для кнопок навигации
+  prevButton.addEventListener("click", async () => {
+    if (currentPage > 1) {
+      currentPage--;
+      await renderPage(currentPage);
+    }
+  });
+
+  nextButton.addEventListener("click", async () => {
+    if (currentPage < totalPages) {
+      currentPage++;
+      await renderPage(currentPage);
+    }
+  });
+}
+
 // Обработчики событий
 document.addEventListener("DOMContentLoaded", () => {
   createHouseCards();
@@ -240,4 +483,7 @@ document.addEventListener("DOMContentLoaded", () => {
       navLinks.classList.remove("active");
     }
   });
+
+  // Загружаем PDF при загрузке страницы
+  loadPDFPresentation();
 });

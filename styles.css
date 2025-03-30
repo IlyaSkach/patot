@@ -61,6 +61,48 @@ nav {
   color: var(--secondary-color);
 }
 
+.contact-icons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.contact-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-size: 20px;
+}
+
+.contact-icon:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.contact-icon .fa-phone {
+  background: var(--primary-color);
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.contact-icon .fa-whatsapp {
+  background: #25d366;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.contact-icon .fa-telegram {
+  background: #0088cc;
+  padding: 10px;
+  border-radius: 50%;
+}
+
 /* Hero section */
 .hero-section {
   height: 80vh;
@@ -329,6 +371,16 @@ footer {
   margin-bottom: 1rem;
 }
 
+.footer-link {
+  color: var(--white);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: var(--secondary-color);
+}
+
 .copyright {
   text-align: center;
   margin-top: 2rem;
@@ -358,6 +410,7 @@ footer {
 @media (max-width: 768px) {
   .mobile-menu-btn {
     display: block;
+    margin-right: 15px;
   }
 
   .nav-links {
@@ -434,6 +487,16 @@ footer {
     grid-template-columns: 1fr;
     text-align: center;
   }
+
+  .contact-icons {
+    gap: 10px;
+  }
+
+  .contact-icon {
+    width: 35px;
+    height: 35px;
+    font-size: 18px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -462,6 +525,12 @@ footer {
     padding: 0.6rem 1rem;
     font-size: 0.9rem;
   }
+
+  .contact-icon {
+    width: 32px;
+    height: 32px;
+    font-size: 16px;
+  }
 }
 
 .view-details {
@@ -484,4 +553,224 @@ footer {
   background-color: var(--secondary-color);
   transform: translateY(-2px);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.about-section {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+}
+
+.about-content {
+  max-width: 1200px;
+  margin: 0 auto 40px;
+}
+
+.about-text {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-text h2 {
+  font-size: 32px;
+  color: var(--primary-color);
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.about-text ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.about-text li {
+  margin-bottom: 10px;
+  padding-left: 25px;
+  position: relative;
+  font-size: 1.1em;
+}
+
+.about-text li:before {
+  content: "•";
+  color: var(--secondary-color);
+  position: absolute;
+  left: 0;
+  font-size: 1.2em;
+}
+
+.presentation-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.presentation-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.presentation-header h3 {
+  font-size: 24px;
+  color: var(--primary-color);
+  margin: 0;
+}
+
+.download-presentation-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--secondary-color);
+  color: white;
+  padding: 12px 24px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.download-presentation-btn:hover {
+  background: #2980b9;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.presentation-wrapper {
+  position: relative;
+  width: 100%;
+  height: 700px;
+  overflow: hidden;
+  background: #f8f9fa;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+#pdf-canvas {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 10px;
+}
+
+.pdf-navigation {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 12px 25px;
+  border-radius: 50px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.pdf-nav-btn {
+  background: var(--secondary-color);
+  color: white;
+  border: none;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.pdf-nav-btn:hover {
+  background: #2980b9;
+  transform: scale(1.1);
+}
+
+.pdf-nav-btn:disabled {
+  background: #e0e0e0;
+  cursor: not-allowed;
+  transform: none;
+}
+
+#page-num {
+  font-size: 18px;
+  color: var(--primary-color);
+  font-weight: 500;
+  min-width: 80px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .about-section {
+    padding: 40px 15px;
+  }
+
+  .about-content {
+    margin-bottom: 30px;
+  }
+
+  .about-text h2 {
+    font-size: 28px;
+  }
+
+  .about-text ul {
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+
+  .presentation-container {
+    padding: 15px;
+  }
+
+  .presentation-wrapper {
+    height: 500px;
+  }
+
+  .presentation-header {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .presentation-header h3 {
+    font-size: 22px;
+  }
+
+  .download-presentation-btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-text h2 {
+    font-size: 24px;
+  }
+
+  .about-text p {
+    font-size: 1em;
+  }
+
+  .about-text li {
+    font-size: 1em;
+  }
+
+  .presentation-wrapper {
+    height: 400px;
+  }
 }
