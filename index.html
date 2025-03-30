@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Каталог частных домов</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<header>
+		<nav>
+			<div class="logo">РАТОР</div>
+			<button class="mobile-menu-btn">
+				<span></span>
+				<span></span>
+				<span></span>
+			</button>
+			<ul class="nav-links">
+				<li><a href="#catalog">Каталог</a></li>
+				<li><a href="#about">О нас</a></li>
+				<li><a href="#contact">Контакты</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section id="hero" class="hero-section">
+			<video class="hero-video" autoplay muted loop playsinline>
+				<source src="images/homebgvideo.mp4" type="video/mp4">
+			</video>
+			<div class="hero-content">
+				<h1>Создайте дом своей мечты</h1>
+				<p>Выберите из наших готовых проектов или создайте свой уникальный дом</p>
+			</div>
+		</section>
+
+		<section id="catalog" class="catalog-section">
+			<h2>Каталог проектов</h2>
+			<div class="filters">
+				<select id="area-filter">
+					<option value="">Все площади</option>
+					<option value="small">До 150 м²</option>
+					<option value="medium">150-250 м²</option>
+					<option value="large">Более 250 м²</option>
+				</select>
+			</div>
+			<div class="houses-grid">
+				<!-- Здесь будут карточки домов -->
+			</div>
+		</section>
+	</main>
+
+	<footer>
+		<div class="footer-content">
+			<div class="footer-section">
+				<h3>Контакты</h3>
+				<p>Телефон: +7 (XXX) XXX-XX-XX</p>
+				<p>Email: info@privatehome.ru</p>
+			</div>
+			<div class="footer-section">
+				<h3>Адрес</h3>
+				<p>г. Москва, ул. Примерная, д. 1</p>
+			</div>
+		</div>
+		<p class="copyright">&copy; 2024 PrivateHome. Все права защищены.</p>
+	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<script src="script.js"></script>
+</body>
+
+</html>
