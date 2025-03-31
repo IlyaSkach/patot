@@ -18,7 +18,7 @@ const houses = [
         file: "specifications/houses/house1/1.pdf",
       },
       {
-        title: "План с росстановкой мебели",
+        title: "План с расстановка мебели",
         file: "specifications/houses/house1/2.pdf",
       },
       {
