@@ -3,7 +3,7 @@ const houses = [
   {
     id: 1,
     title: "Современный дом с одним этажом",
-    description: "Просторный дом с открытой планировкой и большими окнами",
+    description: "от 40 000 рублей за кв.м",
     area: 166,
     mainImage: "images/houses/house1/home1_1.jpg",
     gallery: [
@@ -31,7 +31,7 @@ const houses = [
   {
     id: 2,
     title: "Классический двухэтажный дом",
-    description: "Традиционный дом с мансардой и элегантным фасадом",
+    description: "от 40 000 рублей за кв.м",
     area: 375,
     mainImage: "images/houses/house2/home2_1.jpg",
     gallery: [
@@ -59,7 +59,7 @@ const houses = [
   {
     id: 3,
     title: "Классический двухэтажный дом",
-    description: "Традиционный дом с мансардой и элегантным фасадом",
+    description: "от 40 000 рублей за кв.м",
     area: 227,
     mainImage: "images/houses/house3/home3_1.jpg",
     gallery: [
@@ -87,7 +87,7 @@ const houses = [
   {
     id: 4,
     title: "Классический двухэтажный дом",
-    description: "Традиционный дом с мансардой и элегантным фасадом",
+    description: "от 40 000 рублей за кв.м",
     area: 227,
     mainImage: "images/houses/house4/home4_1.jpg",
     gallery: [
@@ -114,8 +114,8 @@ const houses = [
   },
   {
     id: 5,
-    title: "Классический двухэтажный дом",
-    description: "Традиционный дом с мансардой и элегантным фасадом",
+    title: "Классический одноэтажный дом",
+    description: "от 40 000 рублей за кв.м",
     area: 126,
     mainImage: "images/houses/house5/home5_1.jpg",
     gallery: [
@@ -138,7 +138,7 @@ const houses = [
   {
     id: 6,
     title: "Классический двухэтажный дом",
-    description: "Традиционный дом с мансардой и элегантным фасадом",
+    description: "от 40 000 рублей за кв.м",
     area: 192,
     mainImage: "images/houses/house6/home6_1.jpg",
     gallery: [
@@ -166,7 +166,7 @@ const houses = [
   {
     id: 7,
     title: "Классический двухэтажный дом",
-    description: "Традиционный дом с мансардой и элегантным фасадом",
+    description: "от 40 000 рублей за кв.м",
     area: 230,
     mainImage: "images/houses/house7/home7_1.jpg",
     gallery: [
@@ -194,7 +194,7 @@ const houses = [
   {
     id: 8,
     title: "Классический двухэтажный дом",
-    description: "Традиционный дом с мансардой и элегантным фасадом",
+    description: "от 40 000 рублей за кв.м",
     area: 208,
     mainImage: "images/houses/house8/home8_1.jpg",
     gallery: [
